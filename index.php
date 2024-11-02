@@ -1,5 +1,14 @@
 <?php
 
+    // Не рекомендуется вносить самостоятельно изменения в скрипт, так как любые последствия неработоспособности будут лежать на вас.
+    // С уважением, Cloaking.House
+
+
+    // It is not recommended to make changes to this script on your own, as any consequences of malfunction will be your responsibility.
+    // Sincerely, Cloaking.House
+
+
+
     error_reporting(0);
     mb_internal_encoding('UTF-8');
 
