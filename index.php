@@ -1,5 +1,14 @@
 <?php
 
+    // Не рекомендуется вносить самостоятельно изменения в скрипт, так как любые последствия неработоспособности будут лежать на вас.
+    // С уважением, Cloaking.House
+
+
+    // It is not recommended to make changes to this script on your own, as any consequences of malfunction will be your responsibility.
+    // Sincerely, Cloaking.House
+
+
+
     error_reporting(0);
     mb_internal_encoding('UTF-8');
 
@@ -34,7 +43,7 @@
 
 
     $request_data = [
-        'label'         => '545ea15a23ef27e9efa7d341f425b70c', 
+        'label'         => 'e3429eaf4b890959b30ac387029ebbac', 
         'user_agent'    => $_SERVER['HTTP_USER_AGENT'], 
         'referer'       => ! empty($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '', 
         'query'         => ! empty($_SERVER['QUERY_STRING']) ? $_SERVER['QUERY_STRING'] : '', 
@@ -133,11 +142,3 @@
 
 
 ?>
-<html>
-  <head>
-    <title></title>
-  </head>
-  <body>
-    apple
-  </body>
-</html>
